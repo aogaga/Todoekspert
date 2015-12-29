@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".TodoListActivity">
+
+<item android:id="@+id/action_add"
+    android:title="@string/add"
+    android:icon="@android:drawable/ic_menu_add"
+    android:showAsAction="always|withText"
+    android:orderInCategory="100"
+    tools:ignore="AppCompatResource" />
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/refresh"
+        android:icon="@android:drawable/ic_media_ff"
+        android:showAsAction="always|withText"
+        android:orderInCategory="101"
+        tools:ignore="AppCompatResource" />
+
+
+    <item android:id="@+id/action_logout"
+        android:title="@string/logout"
+        android:showAsAction="never"
+        android:orderInCategory="102"
+        tools:ignore="AppCompatResource" />
+
+</menu>
